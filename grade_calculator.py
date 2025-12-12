@@ -38,7 +38,7 @@ def main():
     print("\n===== RESULT =====")
     print(f"Total Marks: {total}/500")
     print(f"Percentage: {percentage:.2f}%")
-    print(f"Grade: {grade}")
+    print(f"Grade:", {grade})
     print("=====================")
 
 if __name__ == "__main__":
