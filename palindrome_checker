@@ -1,0 +1,18 @@
+# palindrome_checker.py
+
+def is_palindrome(word):
+    word = word.lower()
+    return word == word[::-1]
+
+def main():
+    words = ["Level", "hello", "radar", "world", "madam", "python", "civic", "java", "noon", "racecar"]
+
+    print("Palindrome Checker Results:\n")
+    for word in words:
+        if is_palindrome(word):
+            print(f"Word: {word} -> Palindrome")
+        else:
+            print(f"Word: {word} -> Not a palindrome")
+
+if __name__ == "__main__":
+    main()
